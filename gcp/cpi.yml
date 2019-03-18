@@ -29,6 +29,7 @@
     network_name: ((network))
     subnetwork_name: ((subnetwork))
     tags: ((tags))
+    xpn_host_project_id: ((xpn_host_project_id))
 - path: /instance_groups/name=bosh/jobs/-
   type: replace
   value:
